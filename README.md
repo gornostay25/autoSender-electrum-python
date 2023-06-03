@@ -27,14 +27,25 @@
    pip install -r requirements.txt
    ```
 
-🔧 Set up the MySQL database and configure the connection details in the script.
+🔧 Set up the MySQL database and configure the connection details in the `config.ini` file. Here's an example of the `config.ini` file contents:
+
+   ```ini
+   [mysql]
+   host=<DB HOST>
+   user=<DB USER>
+   password=<DB PASS>
+   database=<DB DATABASE>
+
+   [settings]
+   delay=600 # 10 min = 600 sec
+   ```
 
 🔩 Customize the script to match your specific use case, including the database schema and table structure.
 
 ▶️ Run the script:
 
    ```shell
-   python script.py
+   python main.py
    ```
 
 ⏰ The script will periodically check the database for transactions with the desired status. It will retrieve the wallet address and amount from the MySQL database and perform the corresponding transactions using the Electrum wallet.
