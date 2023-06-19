@@ -86,6 +86,6 @@ Volodymyr Palamar - gornostay25
 
 GitHub: [gornostay25](https://github.com/gornostay25)
 
-## 📄 License
+## 📄 License ( MIT )
 
-All rights reserved. This project is proprietary and the source code is confidential. Unauthorized use, distribution, or reproduction of this code or any portion of it is strictly prohibited.
+~~All rights reserved. This project is proprietary and the source code is confidential. Unauthorized use, distribution, or reproduction of this code or any portion of it is strictly prohibited.~~
